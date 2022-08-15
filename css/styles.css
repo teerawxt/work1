@@ -1,0 +1,113 @@
+body {
+  background-color: #f2ebe3;
+  margin: 0;
+}
+
+div {
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  line-height: 1;
+  font-weight: 700;
+  font-size: 3rem;
+  font-family: 'Fraunces', serif;
+  position: absolute;
+  text-align: left;
+  left: 50px;
+  top: 55px;
+  width: 75%;
+}
+
+h2 {
+  color: #6c7289;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  position: absolute;
+  text-align: left;
+  left: 50px;
+  top: 23px;
+}
+
+p {
+  color: #6c7289;
+  font-size: 1.3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  position: absolute;
+  text-align: left;
+  left: 50px;
+  top: 250px;
+  width: 80%;
+  line-height: 1.5;
+}
+
+.product-img {
+  border-radius: 15px 0 0 15px;
+  position: absolute;
+  float: left;
+  left: 44.5rem;
+  top: 220px;
+  width: 440px;
+  height: 630px;
+}
+
+.right-co {
+  border-radius: 0 15px 15px 0;
+  background-color: white;
+  position: absolute;
+  float: right;
+  right: 44.5rem;
+  top: 220px;
+  width: 440px;
+  height: 630px;
+}
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.price-now {
+  color: #3c8067;
+  font-size: 3.2rem;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  position: absolute;
+  left: 50px;
+  top: 425px;
+}
+
+.price-before {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  position: absolute;
+  left: 260px;
+  top: 445px;
+}
+
+.btn {
+  font-weight: 700;
+  margin: auto 50px;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3c8067;
+  padding: 23px 50px 23px 50px;
+  text-decoration: none;
+  top: 520px;
+}
+
+.btn:hover {
+  background: #1c232b;
+  text-decoration: none;
+}
+
+.challenge {
+  position: relative;
+  top: 1025px;
+}
